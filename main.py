@@ -3,7 +3,7 @@ import pandas as pd
 
 # Define a descriptive User-Agent
 headers = {
-    "User-Agent": "ForesterRationsCalculator/1.0"
+    "User-Agent": "ForesterRationsCalculator/1.0 - Github repo by omeismm"
 }
 
 # Fetch data from the APIs with User-Agent headers
