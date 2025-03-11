@@ -8,6 +8,16 @@ requests library for python.
 
 pandas library for python.
 
+# Make a virtual environment containing requests and pandas (recommended, otherwise install packages normally)
+```
+python -m venv myenv
+
+myenv\Scripts\activate
+
+pip install requests pandas   
+     
+```
+
 
 # Run
 ```
