@@ -39,6 +39,6 @@ python commandline/main.py
 ```
 python backend/app.py
 ```
-# TODO whenever I'm bored
+# TODO whenever
 - make a github pages version to remove the setup process
 - add icons and links to the wiki for all items
