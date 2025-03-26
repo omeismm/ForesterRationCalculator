@@ -27,7 +27,6 @@ pip install requests pandas
 # For web version:
 ```
 pip install requests pandas flask 
-     
 ```
 
 
