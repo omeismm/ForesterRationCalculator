@@ -59,6 +59,13 @@
             font-size: 24px;
             display: none;
         }
+        .item-icon {
+            width: 32px;
+            height: 32px;
+            vertical-align: middle;
+            margin-right: 8px;
+            image-rendering: crisp-edges;
+        }
     </style>
 </head>
 <body>
@@ -95,8 +102,16 @@
                     data.forEach(item => {
                         const row = document.createElement('tr');
                         row.innerHTML = `
-                            <td>${item.Leaf}</td>
-                            <td>${item.Food}</td>
+                            <td>
+                                <img src="https://oldschool.runescape.wiki/images/${item.Leaf.replace(/\s+/g, '_')}.png" 
+                                     alt="${item.Leaf}" class="item-icon">
+                                ${item.Leaf}
+                            </td>
+                            <td>
+                                <img src="https://oldschool.runescape.wiki/images/${item.Food.replace(/\s+/g, '_')}.png" 
+                                     alt="${item.Food}" class="item-icon">
+                                ${item.Food}
+                            </td>
                             <td>${Math.round(item.Profit).toLocaleString()} gp</td>
                             <td>${item.Rations_Created}</td>
                             <td>${Math.round(item.Leaf_Price).toLocaleString()} gp</td>
