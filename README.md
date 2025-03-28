@@ -20,11 +20,11 @@ python -m venv myenv
 
 myenv\Scripts\activate
 ```
-# For command-line version only:
+For command-line version only:
 ```
 pip install requests pandas
 ```
-# For web version:
+For web version:
 ```
 pip install requests pandas flask 
 ```
@@ -32,10 +32,13 @@ pip install requests pandas flask
 
 # Run (Command-line Version)
 ```
-py commandline/main.py
+python commandline/main.py
 ```
 
 # Run (Web Version)
 ```
 python backend/app.py
 ```
+# TODO whenever
+- make a github pages version to remove the setup process
+- add icons and links to the wiki for all items
